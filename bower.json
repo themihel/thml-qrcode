@@ -1,0 +1,27 @@
+{
+  "name": "thml-qrcode",
+  "version": "0.1.0",
+  "authors": [
+    "themihel <helfenstein.mischa@gmail.com>"
+  ],
+  "description": "An polymer element providing a qr-code",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "qrcode"
+  ],
+  "main": "thml-qrcode.html",
+  "license": "MIT",
+  "homepage": "https://github.com/themihel/thml-qrcode/",
+  "ignore": [
+    "/.*",
+    "/test/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.1.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0"
+  }
+}

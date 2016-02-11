@@ -1,0 +1,66 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+AAn polymer element providing a qr-code.
+
+Example:
+
+    <thml-qrcode qr-text='YOUR TEXT' qr-size='400' qr-padding='0'></thml-qrcode>
+
+@group thml
+@element thml-qrcode
+@demo demo/index.html
+-->
+<dom-module id="thml-qrcode">
+
+  <template>
+    <style>
+      :host {
+        display: block;
+        box-sizing: border-box;
+      }
+    </style>
+    <div class="qrCode">
+      <img src="http://qr.themihel.me/?text={{qrText}}&size={{qrSize}}&padding={{qrPadding}}" alt="QR-Code">
+    </div>
+  </template>
+
+</dom-module>
+
+<script>
+
+  Polymer({
+
+    is: 'thml-qrcode',
+
+    properties: {
+
+      /**
+       * Text rendered as QR-Code.
+       */
+      qrText: {
+        type: String,
+        value: 'http://qr.themihel.me'
+      },
+
+      /**
+       * Size of QR-Code image.
+       */
+      qrSize: {
+        type: Number,
+        value: 400
+      },
+
+      /**
+       * Padding of QR-Code image.
+       */
+      qrPadding: {
+        type: Number,
+        value: 0
+      }
+
+    }
+
+  });
+
+</script>
