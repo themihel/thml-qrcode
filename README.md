@@ -2,7 +2,7 @@
 
 An polymer element providing a qr-code. Based on my [QR-Code-Service](http://qr.themihel.me/).
 
-Docs / Demo: coming soon
+Docs / Demo: [here](http://themihel.github.io/thml-qrcode/)
 
 ## Dependencies
 
